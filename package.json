@@ -4,12 +4,12 @@
   "main": "index.js",
   "author": "Joshua Comeau",
   "scripts": {
-    "start": "parcel index.html"
-  },
-  "dependencies": {
-    "parcel": "1.12.3"
+    "start": "parcel serve index.html"
   },
   "resolutions": {
     "@babel/preset-env": "7.13.8"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
   }
 }
